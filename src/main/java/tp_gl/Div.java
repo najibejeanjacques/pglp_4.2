@@ -1,20 +1,26 @@
 package tp_gl;
 
 import java.util.Stack;
-
-import Exception.PileVideException;
+import tp_gl.*;
 
 public class Div implements SpecifiqueCommande {
 	private final MoteurRPN mteur;
 	private final Specifique specifique;
 	
+	/**
+	 * 
+	 * @param moteur le moteur RPN
+	 * @param specifique La classe specifique afin de trouver le traitement adéquat
+	 */
 	public Div(MoteurRPN moteur, Specifique specifique)
 	{
 		this.mteur = moteur;
 		this.specifique = specifique;
 	}
 	
-	@Override
+	/**
+	 * Méthode execute de la division
+	 */
 	public void execute() {
 		// TODO Auto-generated method stub
 		double val1 = 0,val2=0;

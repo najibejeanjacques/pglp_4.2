@@ -9,13 +9,20 @@ public class Multi implements SpecifiqueCommande {
 	private final MoteurRPN mteur;
 	private final Specifique specifique;
 	
+	/**
+	 * 
+	 * @param moteur le moteur RPN
+	 * @param specifique La classe specifique afin de trouver le traitement adéquat
+	 */
 	public Multi(MoteurRPN moteur, Specifique specifique)
 	{
 		this.mteur = moteur;
 		this.specifique = specifique;
 	}
 	
-	@Override
+	/**
+	 * Méthode execute de la soustraction
+	 */
 	public void execute() {
 		// TODO Auto-generated method stub
 		double val1 = 0,val2=0;

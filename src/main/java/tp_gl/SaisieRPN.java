@@ -22,6 +22,9 @@ public class SaisieRPN {
 		private final static int  MAX_VALUE = 9999999;
 		private Stack<Double> pile;
 		
+		/**
+		 * Constructeur de la classe Saisie RPN
+		 */
 		public SaisieRPN()
 		{
 			this.moteurrpn = new MoteurRPN();
@@ -29,13 +32,25 @@ public class SaisieRPN {
 			pile = new Stack<Double>();
 		}
 		
-		//Retourner l'objet moteur
+		/***
+		 * 
+		 * @return le moteur RPN
+		 */
 		public MoteurRPN getMoteur()
 		{
 			return this.moteurrpn;
 		}
 		
-		//Lecture au clavier
+		/***
+		 * 
+		 * @throws PileVideException pile vide exception
+		 * @throws PilePleineException pile pleine exception
+		 * @throws SaisieException exception dans la saisie
+		 * @throws NumberFormatException exception dans le format des nombres
+		 * @throws NombreException exception
+		 * @throws DivisionParZeroException exception d'une division par zero
+		 * @throws FormatRPNException format RPN eception
+		 */
 		public void lire() throws PileVideException,PilePleineException,SaisieException, NumberFormatException, NombreException, DivisionParZeroException, FormatRPNException
 	    {
 	        Scanner sc=new Scanner(System.in);
@@ -64,10 +79,6 @@ public class SaisieRPN {
 					{
 						System.out.println("On ne peux pas faire l'opération avec une seule opérande");
 					}
-					/*else if(boucle==2)
-					{
-						System.out.println("Veuillez saisir un opérateur pour effectuer le calcul");
-					}*/
 					else
 					{
 						this.moteurrpn.apply(chaine);
@@ -80,7 +91,12 @@ public class SaisieRPN {
 	    	}
 	    }
 	    
-		//Verfier si ce qui a été saisie est un operateur ou un opérateur
+		/**
+		 * 
+		 * @param saisie la valeur en entré saisie par l'utilisateur
+		 * @return un boolean afin de voir si la valeur entrée est une opérande
+		 * 
+		 */
 		public static Boolean VerifierOperand(String saisie)
 		{
 			try 
@@ -94,6 +110,11 @@ public class SaisieRPN {
 			}
 		}
 		
+		/**
+		 * 
+		 * @param valeur la valeur en entré saisie par l'utilisateur
+		 * @return un boolean afin de voir si la valeur entrée est une opérande et respecte les conditions 
+		 */
 		public static boolean VerifierNombre(Double valeur)
 		{
 			if(MIN_VALUE <= valeur || valeur <= MAX_VALUE)
