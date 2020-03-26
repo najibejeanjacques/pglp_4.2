@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2020</copyright>
     <item>
-      <title>File: 23,
-             Errors: 481,
+      <title>File: 30,
+             Errors: 573,
              Warnings: 0,
              Infos: 0
       </title>
@@ -60,20 +60,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#tp_gl.SpecifiqueCommande.java">tp_gl/SpecifiqueCommande.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="${project.url}/checkstyle.html#tp_gl.Minus.java">tp_gl/Minus.java</a>
                 </td>
                 <td>
@@ -84,20 +70,6 @@ under the License.
                 </td>
                 <td>
                   24
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#tp_gl.GeneriqueCommand.java">tp_gl/GeneriqueCommand.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
                 </td>
               </tr>
                           <tr>
@@ -116,6 +88,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="${project.url}/checkstyle.html#Test_RPN.CommandeSpecfiqueTest.java">Test_RPN/CommandeSpecfiqueTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="${project.url}/checkstyle.html#tp_gl.Specifique.java">tp_gl/Specifique.java</a>
                 </td>
                 <td>
@@ -130,7 +116,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#tp_gl.MoteurRPN.java">tp_gl/MoteurRPN.java</a>
+                  <a href="${project.url}/checkstyle.html#Test_RPN.DivTest.java">Test_RPN/DivTest.java</a>
                 </td>
                 <td>
                   0
@@ -139,21 +125,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  108
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#tp_gl.Generique.java">tp_gl/Generique.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  9
+                  13
                 </td>
               </tr>
                           <tr>
@@ -186,7 +158,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#Test_RPN.QuitTest.java">Test_RPN/QuitTest.java</a>
+                  <a href="${project.url}/checkstyle.html#Test_RPN.CommandeGeneriqueTest.java">Test_RPN/CommandeGeneriqueTest.java</a>
                 </td>
                 <td>
                   0
@@ -195,7 +167,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  7
+                  13
                 </td>
               </tr>
                           <tr>
@@ -214,34 +186,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#Test_RPN.UndoTest.java">Test_RPN/UndoTest.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  11
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#tp_gl.Interpreter.java">tp_gl/Interpreter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  30
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="${project.url}/checkstyle.html#tp_gl.Undo.java">tp_gl/Undo.java</a>
                 </td>
                 <td>
@@ -251,21 +195,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  24
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#Exception.FormatRPNException.java">Exception/FormatRPNException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
+                  22
                 </td>
               </tr>
                           <tr>
@@ -312,34 +242,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#Exception.NombreException.java">Exception/NombreException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#Exception.SaisieException.java">Exception/SaisieException.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="${project.url}/checkstyle.html#Exception.PilePleineException.java">Exception/PilePleineException.java</a>
                 </td>
                 <td>
@@ -364,6 +266,202 @@ under the License.
                 </td>
                 <td>
                   24
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#Test_RPN.MoinsTest.java">Test_RPN/MoinsTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  12
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#tp_gl.SpecifiqueCommande.java">tp_gl/SpecifiqueCommande.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#tp_gl.GeneriqueCommand.java">tp_gl/GeneriqueCommand.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#tp_gl.MoteurRPN.java">tp_gl/MoteurRPN.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  110
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#tp_gl.Generique.java">tp_gl/Generique.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#Test_RPN.QuitTest.java">Test_RPN/QuitTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#Test_RPN.UndoTest.java">Test_RPN/UndoTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  21
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#tp_gl.Interpreter.java">tp_gl/Interpreter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  30
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#Exception.FormatRPNException.java">Exception/FormatRPNException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#Test_RPN.SaisieRPNTest.java">Test_RPN/SaisieRPNTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#Test_RPN.MultiTest.java">Test_RPN/MultiTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  13
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#Test_RPN.PlusTest.java">Test_RPN/PlusTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#Exception.NombreException.java">Exception/NombreException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#Exception.SaisieException.java">Exception/SaisieException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
                 </td>
               </tr>
                       </tbody>
