@@ -21,13 +21,14 @@ public class MoteurRPN extends Interpreter {
 	private Multi multi = new Multi(this, specifique);
 	private Div div = new Div(this, specifique);
 	
+	private Interpreter interpreteur = new Interpreter();
+	
 	private Generique generique = new Generique();
 	//private Undo undo = new Undo(history);
+	Undo undo = new Undo(interpreteur.mapCommand);
 	private Quit quit = new Quit();
 	
 	
-	
-	private Interpreter interpreteur = new Interpreter();
 	
 	/***
 	 * 
@@ -41,7 +42,7 @@ public class MoteurRPN extends Interpreter {
 		interpreteur.register("-", moins);
 		interpreteur.register("*", multi);
 		interpreteur.register("/", div);
-		//interpreteur.register("undo", undo);
+		interpreteur.register("undo", undo);
 		interpreteur.register("quit", quit);
 	}
 	
@@ -65,8 +66,6 @@ public class MoteurRPN extends Interpreter {
 		}
 		else if(interpreteur.mapCommand.get(chaine) instanceof Undo)
 		{
-			Undo undo = new Undo(interpreteur.mapCommand);
-			interpreteur.register("undo", undo);
 			interpreteur.execute(chaine);
 		}
 		else
@@ -126,7 +125,7 @@ public class MoteurRPN extends Interpreter {
 			}
 			else
 			{
-				//interpreteur.execute(commandName);
+				//interpreteur.execute();
 			}
 		}
 

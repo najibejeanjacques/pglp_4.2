@@ -10,7 +10,6 @@ import Exception.*;
 
 public class Undo implements GeneriqueCommand {
 	private HashMap<String,Command> history;
-	List<String> list = new ArrayList<String>(history.keySet());
 	public String name;
 	
 	
@@ -27,6 +26,7 @@ public class Undo implements GeneriqueCommand {
 	 * Méthode execute de Undo qui est une commande Générique 
 	 */
 	public void execute() {
+		List<String> list = new ArrayList<String>(history.keySet());
 		history.remove(list.get(list.size()-1));
 	}
 	
