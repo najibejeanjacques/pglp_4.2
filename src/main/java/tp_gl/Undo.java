@@ -11,8 +11,7 @@ import Exception.*;
 public class Undo implements GeneriqueCommand {
 	private HashMap<String,Command> history;
 	public String name;
-	
-	
+
 	/**
 	 * 
 	 * @param mapCommand qui est une map de commande 

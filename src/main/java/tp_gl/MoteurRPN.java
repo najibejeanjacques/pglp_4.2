@@ -60,9 +60,17 @@ public class MoteurRPN extends Interpreter {
 	{
 		if(interpreteur.mapCommand.get(chaine) instanceof Quit)
 		{
-			Calculer();
-			System.out.println("La valeur calculé avec RPN vaut :"+depiler());
-			interpreteur.execute(chaine);
+			if(getHistory().isEmpty())
+			{
+				System.out.println("RIEN dans la pile de commande");
+				interpreteur.execute(chaine);
+			}
+			else
+			{
+				Calculer();
+				System.out.println("La valeur calculé avec RPN vaut :"+depiler());
+				interpreteur.execute(chaine);
+			}
 		}
 		else if(interpreteur.mapCommand.get(chaine) instanceof Undo)
 		{
@@ -114,6 +122,8 @@ public class MoteurRPN extends Interpreter {
 		Iterator<Command> iterator = history.iterator();
 		while (iterator.hasNext())
 		{
+			if(this.operand.size()==getHistory().size()+1)
+			{
 			//commandName =iterator.next()
 			commands = iterator.next();
 			//System.out.println("nomCommand ="+commandName);
@@ -126,6 +136,12 @@ public class MoteurRPN extends Interpreter {
 			else
 			{
 				//interpreteur.execute();
+			}
+			}
+			else
+			{
+				System.out.println("Erreur");
+				interpreteur.execute("quit");
 			}
 		}
 

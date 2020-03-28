@@ -78,7 +78,13 @@ public class SaisieRPN {
 					else if(boucle<2)
 					{
 						System.out.println("On ne peux pas faire l'opération avec une seule opérande");
+						
 					}
+					/*else if(boucle==2)
+					{
+						System.out.println("Veuillez saisir l'opérateur");
+						boucle++;
+					}*/
 					else
 					{
 						this.moteurrpn.apply(chaine);
